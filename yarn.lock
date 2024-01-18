@@ -2196,6 +2196,13 @@
     "@ngrx/operators" "17.0.0-beta.0"
     tslib "^2.0.0"
 
+"@ngrx/entity@^17.1.0":
+  version "17.1.0"
+  resolved "https://registry.yarnpkg.com/@ngrx/entity/-/entity-17.1.0.tgz#eef225fae1bc0dbf475c00518b73e6fd247642ac"
+  integrity sha512-8aOw1Eu+FUyLhMlrci8Q3Y6KItHYqBFbUAkpIvH6qM94epCoHRs+V+w7lJ/NX8BXAynxuMjHt4byOgGNP38/uQ==
+  dependencies:
+    tslib "^2.0.0"
+
 "@ngrx/operators@17.0.0-beta.0":
   version "17.0.0-beta.0"
   resolved "https://registry.yarnpkg.com/@ngrx/operators/-/operators-17.0.0-beta.0.tgz#030486f3a610fa919d2b155aad3bc7b4c708550d"
