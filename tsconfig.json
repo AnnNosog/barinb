@@ -11,6 +11,7 @@
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "emitDecoratorMetadata": true,
     "sourceMap": true,
     "declaration": false,
     "experimentalDecorators": true,
@@ -24,7 +25,7 @@
       "dom"
     ],
     "paths": {
-      "@app/ui/icons": ["./src/app/ui/icons/index.ts"]
+      "@app/ui/icons": ["./src/app/ui/icons/index.ts"],
     }
   },
   
