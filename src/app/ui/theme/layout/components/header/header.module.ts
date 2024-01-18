@@ -1,19 +1,20 @@
 import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
+import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterModule } from '@angular/router';
-import { HeaderModule } from './components/header/header.module';
-
+import { HeaderComponent } from './header.component';
 
 @NgModule({
   imports: [
-    RouterModule,
+    RouterModule, 
     MatToolbarModule,
     MatButtonModule,
-    MatIconModule
-  ],
+    MatIconModule, 
+    MatDialogModule
+    ],
   declarations: [],
   exports: [],
 })
-export class LayoutModule {}
+export class HeaderModule {}

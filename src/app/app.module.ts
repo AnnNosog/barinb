@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RouterModule } from '@angular/router';
 import { LayoutModule } from './ui/theme/layout/layout.module';
+import {MatToolbarModule} from '@angular/material/toolbar'; 
 
 @NgModule({
   imports: [
@@ -17,7 +18,8 @@ import { LayoutModule } from './ui/theme/layout/layout.module';
     HttpClientModule,
     HttpClientJsonpModule,
     RouterModule,
-    LayoutModule
+    LayoutModule,
+    MatToolbarModule
   ],
   declarations: [
     AppComponent
